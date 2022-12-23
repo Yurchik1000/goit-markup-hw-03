@@ -37,12 +37,24 @@ color: var(--primary-color);
 }
 
 /* -----header----- */
+.text{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-list{
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+    }
 
 .header {
     background-color: #FFFFFF;
     padding-top: 24px;
     padding-bottom: 24px;
-}
+    }
+
+.header>.container{display: flex;}
 
 .logo{
 font-family: 'Raleway', sans-serif;
@@ -51,13 +63,12 @@ font-size: 18px;
 line-height: 1.33;
 letter-spacing: 0.03em;
 color: #2E2F42;
+margin-right: 76px;
 }
 .web{color: var(--primary-btn);}
 
+
 .header-link {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 color: var(--primary-color);
 }
 .header-link:hover,
@@ -66,15 +77,9 @@ color: var(--primary-color);
 }
 
 .header-mail {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 color: var(--secondary-color);
 }
 .header-tel {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 color: var(--secondary-color);
 }
 
@@ -87,6 +92,10 @@ color: var(--secondary-color);
     color: var(--primary-btn);
 }
 
+.header-navigation
+{display: flex;}
+
+.header-tel {margin-right: 156px;}
 /* -----Our goal------ */
 
 .Our-goal{
@@ -95,11 +104,10 @@ color: var(--secondary-color);
 }
 
 /* -----What-index----- */
-.what-index{
-    padding-bottom: 120px;
-}
+
 .hero-title-index{
     margin-bottom: 72px;
+    margin-left: 403px;
 }
 
 /* -----our-team----- */
@@ -112,10 +120,13 @@ color: var(--secondary-color);
     margin-bottom: 72px;
 }
 /* ------hero----- */ 
-.hero-index{
+.hero-main{
+    width: 494px;
+    padding: 188px 473px;
+    }
+
+.hero-wrap{
 background-color: var(--primary-color);
-padding-top: 188px;
-padding-bottom: 188px;
 }
 
 .hero-title {
@@ -124,9 +135,23 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 color: var(--primary-color);
 }
+.btn {padding-left: 271px;
+padding-top: 96px;
+padding-bottom: 72px;}
+.hero-list{
+    display: flex;
+    gap: 24px;
+}
+.hero-list-port
+{display: flex;
+gap: 24px;
+flex-wrap: wrap;}
 
+.hero-item {
+    
+}
 .hero-main {
-font-weight: 600;
+font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
@@ -154,8 +179,9 @@ color:var(--secondary-btn);
 cursor: pointer;
 background-color:var(--primary-btn);
 border-radius: 4px
-
 }
+
+
 .hero-btn:hover,
 .hero-btn:focus {
     color: #FFFFFF;

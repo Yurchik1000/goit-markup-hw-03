@@ -136,6 +136,7 @@ color: var(--primary-color);
 
 .hero-list{
     display: flex;
+    justify-content: space-between;
     gap: 24px;
 }
 .hero-list-port
@@ -199,7 +200,7 @@ margin-top: 48px;
 }
 
 .hero-item-index{
-    width: 294px;
+    width: 264px;
     
 }
 
@@ -243,8 +244,11 @@ color: var(--secondary-color);
 /* -----Our goal------ */
 
 .Our-goal{
+    display: flex;
+    justify-content: space-between;
     padding-top: 120px;
     padding-bottom: 120px;
+    margin: 0 auto;
 }
 
 /* -----What-index----- */
@@ -266,7 +270,16 @@ letter-spacing: 0.02em;
     padding-bottom: 120px;
 }
 .our-team-title{
+    text-align: center;
     margin-bottom: 72px;
+    font-size: 36px;
+line-height: 1.11px;
+letter-spacing: 0.02em;
+}
+
+.our-team-name{
+    text-align: center;
+    padding: 32px 16px;
 }
 
 /* -----footer----- */

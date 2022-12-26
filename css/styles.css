@@ -12,7 +12,6 @@
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red;
     margin: 0 auto;
 }
 
@@ -148,8 +147,7 @@ row-gap: 48px;
 }
 
 .card{
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
     }
@@ -197,6 +195,7 @@ padding: 12px 32px;
 margin: auto;
 display: block;
 margin-top: 48px;
+border-color: #4D5AE5;
 }
 
 .hero-item-index{
@@ -215,35 +214,33 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--primary-color);
-margin-left: 16px;
 }
 
 .hero-headline-index{
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2px;
-text-align: center;
+line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
+
 }
 .hero-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-color);
-margin-left: 16px;
 }
 
 .hero-text-index{
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-color);
 }
 
 /* -----Our goal------ */
 
-.Our-goal{
+.our-goal{
     display: flex;
     justify-content: space-between;
     padding-top: 120px;
@@ -257,7 +254,7 @@ color: var(--secondary-color);
     margin-bottom: 72px;
     text-align: center;
     font-size: 36px;
-line-height: 1.11px;
+line-height: 1.11;
 letter-spacing: 0.02em;
 }
 .what-index {
@@ -273,13 +270,19 @@ letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 72px;
     font-size: 36px;
-line-height: 1.11px;
+line-height: 1.11;
 letter-spacing: 0.02em;
 }
 
 .our-team-name{
     text-align: center;
     padding: 32px 16px;
+}
+
+.out-team-item{
+    background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 }
 
 /* -----footer----- */
